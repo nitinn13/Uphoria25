@@ -61,3 +61,6 @@
 .animate-jiggle {
   animation: crazyJiggle 2s infinite;
 }
+.glowing-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.7);
+}
