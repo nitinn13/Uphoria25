@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        // 'uphoria': "url('/Uphoriabg.svg')",
+        'uphoria': "url('/bgpng.png')",
+      },
+    },
   },
   plugins: [],
 }

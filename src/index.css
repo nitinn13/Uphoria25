@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body {
+  @apply w-full h-screen bg-no-repeat bg-cover bg-center;
+  background-image: url('../uphoriabg.svg');
+} */
+
+@keyframes minimalisticFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-minimalistic {
+  animation: minimalisticFadeIn 1s ease-out;
+}
+
+@keyframes crazyJiggle {
+  0% {
+    transform: scale(1) rotate(0deg) skew(0deg);
+  }
+  10% {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+  }
+  20% {
+    transform: scale(1) rotate(-5deg) skew(-5deg);
+  }
+  30% {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+  }
+  40% {
+    transform: scale(1) rotate(-5deg) skew(-5deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+  }
+  60% {
+    transform: scale(1) rotate(-5deg) skew(-5deg);
+  }
+  70% {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+  }
+  80% {
+    transform: scale(1) rotate(-5deg) skew(-5deg);
+  }
+  90% {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg) skew(0deg);
+  }
+}
+
+.animate-jiggle {
+  animation: crazyJiggle 2s infinite;
+}
