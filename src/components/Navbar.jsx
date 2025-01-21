@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom'
+
 
 const Navbar = () => {
-// <<<<<<< Updated upstream
+  // <<<<<<< Updated upstream
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
 
   return (
     <nav className="relative">
@@ -18,9 +20,13 @@ const Navbar = () => {
         <div className="hidden md:block mx-auto">
           <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400">
             <ul className="flex flex-wrap justify-around items-center gap-7 mx-5 my-3">
-              {['Events', 'Timeline', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
+              {['Home', 'Timeline', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
                 <li key={index} className="hover:text-gray-300">
-                  <a href={item} aria-label={`Navigate to ${item}`}>{item}</a>
+                  {/* <a href={item} aria-label={`Navigate to ${item}`}>{item}</a> */}
+                  {/* <NavLink to={item}>{item}</NavLink> */}
+                  <NavLink to={item === 'Home' ? '/' : `/${item}`}>
+                    {item}
+                  </NavLink>
                 </li>
               ))}
             </ul>
@@ -32,7 +38,7 @@ const Navbar = () => {
           <div className="w-24 md:w-auto ml-4 md:mr-0">
             <img classname=" " src="logo2.svg" alt="TimesLogo" className="h-auto" />
           </div>
-          
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden ml-8 text-white p-0"
@@ -73,7 +79,8 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  )}
+  )
+}
 // =======
 //   return (
 //     <div className='flex flex-row justify-between items-center gap-[20vw]'>

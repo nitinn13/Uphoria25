@@ -1,48 +1,64 @@
-import React from 'react'
-import Homepage from './pages/Homepage'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Sponsors from './pages/Sponsors'
-import Gallery from './pages/Gallery'
-import EventCategoryPage from './pages/EventCategoryPage'
-import Timeline from './pages/Timeline'
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import Sponsors from './pages/Sponsors';
+import Gallery from './pages/Gallery';
+import EventCategoryPage from './pages/EventCategoryPage';
+import Timeline from './pages/Timeline';
 
+// Layout Component to Wrap Pages
+const Layout = ({ children }) => (
+  <div className="w-full min-h-screen bg-bgwebsite bg-contain bg-repeat flex flex-col items-center font-ibm-plex-condensed">
+    {children}
+  </div>
+);
+
+// Define Routes
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Homepage />,
-
+    element: (
+      <Layout>
+        <Homepage />
+      </Layout>
+    ),
   },
   {
     path: '/Sponsors',
-    element: <Sponsors />,
-
+    element: (
+      <Layout>
+        <Sponsors />
+      </Layout>
+    ),
   },
   {
     path: '/Gallery',
-    element: <Gallery />,
-
+    element: (
+      <Layout>
+        <Gallery />
+      </Layout>
+    ),
   },
   {
     path: '/Timeline',
-    element: <Timeline />,
-
+    element: (
+      <Layout>
+        <Timeline />
+      </Layout>
+    ),
   },
   {
     path: '/category/:category',
-    element: <EventCategoryPage />,
-    
-  }
-  
-])
-
+    element: (
+      <Layout>
+        <EventCategoryPage />
+      </Layout>
+    ),
+  },
+]);
 
 const App = () => {
-  return (
-    <div className="w-full min-h-screen bg-bgwebsite bg-repeat bg-contain flex flex-col items-center font-ibm-plex-condensed">
-      <RouterProvider router={router} />
-    </div>
+  return <RouterProvider router={router} />;
+};
 
-  )
-}
-
-export default App
+export default App;
