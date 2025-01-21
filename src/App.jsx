@@ -8,7 +8,7 @@ import Timeline from './pages/Timeline';
 
 // Layout Component to Wrap Pages
 const Layout = ({ children }) => (
-  <div className="w-full min-h-screen bg-bgwebsite bg-contain bg-repeat flex flex-col items-center font-ibm-plex-condensed">
+  <div className="w-full min-h-screen bg-bgwebsite bg-cover bg-center bg-fixed flex flex-col items-center font-ibm-plex-condensed">
     {children}
   </div>
 );

@@ -13,7 +13,7 @@ export default {
       backgroundImage: {
         // 'uphoria': "url('/Uphoriabg.svg')",
         'uphoria': "url('/bgpng.png')",
-        'bgwebsite' : "url('/bgnew.png')",
+        'bgwebsite' : "url('/bgred.png')",
       },
     },
   },

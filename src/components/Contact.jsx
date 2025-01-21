@@ -25,47 +25,55 @@ const Contact = () => {
           {/* First Row */}
           <div className="flex space-x-10">
             {/* Team Member 1 */}
-            <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-              <img
-                src="public/nitin.jpg"
-                alt="Nitin Jha"
-                className="relative rounded-full w-16 h-16 object-cover border-2 border-blue-500"
-              />
-            </div>
+            <a href="www.linkedin.com/in/nitin-kumar-jha" target='_blank'>
+              <div className="relative group">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+                <img
+                  src="public/nitin.jpg"
+                  alt="Nitin Jha"
+                  className="relative rounded-full w-16 h-16 object-cover border-2 border-blue-500"
+                />
+              </div>
+            </a>
 
             {/* Team Member 2 */}
-            <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-              <img
-                src="public/soumya.jpg"
-                alt="Soumya Singh"
-                className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
-              />
-            </div>
+            <a href="">
+              <div className="relative group">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+                <img
+                  src="public/soumya.jpg"
+                  alt="Soumya Singh"
+                  className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
+                />
+              </div>
+            </a>
           </div>
 
           {/* Second Row */}
           <div className="flex space-x-10">
             {/* Team Member 3 */}
-            <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-              <img
-                src="public/parth.jpg"
-                alt="Parth Pankaj Singh"
-                className="relative rounded-full w-16 h-16 object-cover border-2 border-pink-500"
-              />
-            </div>
+            <a href="">
+              <div className="relative group">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+                <img
+                  src="public/parth.jpg"
+                  alt="Parth Pankaj Singh"
+                  className="relative rounded-full w-16 h-16 object-cover border-2 border-pink-500"
+                />
+              </div>
+            </a>
 
             {/* Team Member 4 */}
-            <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-              <img
-                src="public/dev3.jpg"
-                alt="Sankalp Tiwari"
-                className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
-              />
-            </div>
+            <a href="">
+              <div className="relative group">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+                <img
+                  src="public/dev3.jpg"
+                  alt="Sankalp Tiwari"
+                  className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
+                />
+              </div>
+            </a>
           </div>
         </div>
 

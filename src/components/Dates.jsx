@@ -2,12 +2,12 @@ import React from 'react'
 // import Dates from '../../public/Dates.svg'
 const Dates = () => {
     return (
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center my-[20vh]">
             <img
-                src="finaldate.png"
+                src="date.svg"
                 alt="Dates"
-                height={700}
-                width={700}
+                height={600}
+                width={600}
             />
         </div>
     )

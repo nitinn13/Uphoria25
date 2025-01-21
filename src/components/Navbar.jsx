@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="relative">
       {/* Desktop and Mobile Main Bar */}
-      <div className='flex flex-row items-center justify-between gap-[20vw] '>
+      <div className='flex flex-row items-center justify-between gap-[20vw] mx-2'>
         {/* Left Logo */}
         <div className=" w-24 md:w-auto">
           <img src="logo1.svg" alt="TimesLogo" className="h-auto" />
@@ -19,11 +19,10 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:block mx-auto">
           <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400">
-            <ul className="flex flex-wrap justify-around items-center gap-7 mx-5 my-3">
-              {['Home', 'Timeline', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
+            <ul className="flex  justify-around items-center gap-6 mx-5 my-3">
+              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
                 <li key={index} className="hover:text-gray-300">
-                  {/* <a href={item} aria-label={`Navigate to ${item}`}>{item}</a> */}
-                  {/* <NavLink to={item}>{item}</NavLink> */}
+                  
                   <NavLink to={item === 'Home' ? '/' : `/${item}`}>
                     {item}
                   </NavLink>
