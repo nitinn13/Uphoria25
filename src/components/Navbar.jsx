@@ -1,35 +1,14 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-<<<<<<< HEAD
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-=======
-  return (
-    <div className='flex flex-row justify-between items-center gap-[20vw]'>
-      <div>
-        <img src="logo1.svg" alt="TimesLogo" />
-      </div>
-      <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400 mx-4 my-3">
-        <ul className="flex flex-wrap justify-around items-center gap-7 mx-5 my-3">
-          {['Events', 'Timeline', 'Gallery',  'Contact', 'Sponsors'].map((item, index) => (
-            <li key={index} className="hover:text-gray-300">
-              <a href={item} aria-label={`Navigate to ${item}`}>{item}</a>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <img src="logo2.svg" alt="TimesLogo" />
-      </div>
-    </div>
->>>>>>> 3b7a2b125ac876aeaf9d448a5ab4fdfc77908eba
 
   return (
     <nav className="relative">
       {/* Desktop and Mobile Main Bar */}
       <div className='flex flex-row items-center'>
         {/* Left Logo */}
-        <div className="w-24 md:w-auto">
+        <div className=" w-24 md:w-auto">
           <img src="logo1.svg" alt="TimesLogo" className="h-auto" />
         </div>
 
