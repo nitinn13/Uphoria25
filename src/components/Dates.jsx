@@ -4,7 +4,7 @@ const Dates = () => {
     return (
         <div className="flex justify-center items-center ">
             <img
-                src="date.png"
+                src="finaldate.png"
                 alt="Dates"
                 height={700}
                 width={700}
