@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="hidden md:block mx-auto">
           <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400">
             <ul className="flex flex-wrap justify-around items-center gap-7 mx-5 my-3">
-              {['Events', 'Timeline', 'About', 'Contact', 'Gallery'].map((item, index) => (
+              {['Events', 'Timeline', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
                 <li key={index} className="hover:text-gray-300">
                   <a href={item} aria-label={`Navigate to ${item}`}>{item}</a>
                 </li>

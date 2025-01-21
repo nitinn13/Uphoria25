@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const Gallery = () => {
+const Timeline = () => {
   return (
     <div>
-      <Navbar/>
+        <Navbar/>
     </div>
   )
 }
 
-export default Gallery
+export default Timeline

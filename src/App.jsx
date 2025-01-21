@@ -3,6 +3,8 @@ import Homepage from './pages/Homepage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Sponsors from './pages/Sponsors'
 import Gallery from './pages/Gallery'
+import EventCategoryPage from './pages/EventCategoryPage'
+import Timeline from './pages/Timeline'
 
 const router = createBrowserRouter([
   {
@@ -20,14 +22,23 @@ const router = createBrowserRouter([
     element: <Gallery />,
 
   },
+  {
+    path: '/Timeline',
+    element: <Timeline />,
+
+  },
+  {
+    path: '/category/:category',
+    element: <EventCategoryPage />,
+    
+  }
   
 ])
 
 
 const App = () => {
   return (
-
-    <div className="w-full min-h-screen bg-uphoria bg-repeat bg-cover bg-screen flex flex-col items-center font-ibm-plex-condensed">
+    <div className="w-full min-h-screen bg-bgwebsite bg-repeat bg-contain flex flex-col items-center font-ibm-plex-condensed">
       <RouterProvider router={router} />
     </div>
 
