@@ -1,12 +1,12 @@
 
 [
-  { "label": "Music", "id": 1, "path": "/music" },
-  { "label": "Dance", "id": 2, "path": "/dance" },
-  { "label": "Drama", "id": 3, "path": "/drama" },
-  { "label": "Art", "id": 4, "path": "/art" },
-  { "label": "Fashion", "id": 5, "path": "/fashion" },
-  { "label": "Gaming", "id": 6, "path": "/gaming" },
-  { "label": "Literary", "id": 7, "path": "/literary" },
-  { "label": "Photography", "id": 8, "path": "/photography" },
-  { "label": "Astronomy", "id": 9, "path": "/astronomy" }
+  { "label": "Music", "id": 1, "path": "music" },
+  { "label": "Dance", "id": 2, "path": "dance" },
+  { "label": "Drama", "id": 3, "path": "drama" },
+  { "label": "Art", "id": 4, "path": "art" },
+  { "label": "Fashion", "id": 5, "path": "fashion" },
+  { "label": "Gaming", "id": 6, "path": "gaming" },
+  { "label": "Literary", "id": 7, "path": "literary" },
+  { "label": "Photography", "id": 8, "path": "photography" },
+  { "label": "Astronomy", "id": 9, "path": "astronomy" }
 ]
