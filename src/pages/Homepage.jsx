@@ -2,6 +2,7 @@ import React from 'react'
 import Uphoriatext from '../components/Uphoriatext'
 import Navbar from '../components/Navbar'
 import Desc from '../components/Desc'
+import Categories from '../components/Categories'
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
 
       <Uphoriatext />
       <Desc />
+      <Categories/>
     </div>
   )
 }
