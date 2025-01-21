@@ -29,7 +29,7 @@ const Contact = () => {
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                 <img
-                  src="public/nitin.jpg"
+                  src="/nitin.jpg"
                   alt="Nitin Jha"
                   className="relative rounded-full w-16 h-16 object-cover border-2 border-blue-500"
                 />
@@ -41,7 +41,7 @@ const Contact = () => {
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                 <img
-                  src="public/soumya.jpg"
+                  src="/soumya.jpg"
                   alt="Soumya Singh"
                   className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
                 />
@@ -56,7 +56,7 @@ const Contact = () => {
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                 <img
-                  src="public/parth.jpg"
+                  src="/parth.jpg"
                   alt="Parth Pankaj Singh"
                   className="relative rounded-full w-16 h-16 object-cover border-2 border-pink-500"
                 />
@@ -68,7 +68,7 @@ const Contact = () => {
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                 <img
-                  src="public/dev3.jpg"
+                  src="/sankalp.png"
                   alt="Sankalp Tiwari"
                   className="relative rounded-full w-16 h-16 object-cover border-2 border-purple-500"
                 />

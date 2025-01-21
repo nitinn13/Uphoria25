@@ -7,6 +7,7 @@ import Dates from '../components/Dates'
 import Contact from '../components/Contact'
 import PrizePool from '../components/PrizePool'
 
+
 const Homepage = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[12vw]' >

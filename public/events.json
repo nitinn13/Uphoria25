@@ -4,39 +4,45 @@
     "events": [
       {
         "id": "1.1",
-        "name": "Bars Mayhem",
-        "description": "Bars Mayhem is a dynamic hip-hop rap contest where participants will showcase their rap talent with crazy flow and lyrics.",
-        "link": "https://unstop.com/p/spitfire-rap-uphoria-2025-bennett-university-bu-greater-noida-1368348"
+        "name": "Spitfire",
+        "description": "Spitfire is a dynamic hip-hop rap contest where participants will showcase their rap talent with crazy flow and lyrics.",
+        "link": "https://unstop.com/p/spitfire-rap-uphoria-2025-bennett-university-bu-greater-noida-1368348",
+        "banner": "https://drive.google.com/uc?export=view&id=19rN2Ju7gcbFftXO8U9AozOf-eQ-rou8R"
       },
       {
         "id": "1.2",
         "name": "Rockmania",
         "description": "Rockmania, the ultimate musical showdown hosted by Advaita, brings together bands from colleges for a spectacular display of talent.",
-        "link": "https://unstop.com/p/rockmania-battle-of-bands-uphoria-2025-bennett-university-bu-greater-noida-1368337"
+        "link": "https://unstop.com/p/rockmania-battle-of-bands-uphoria-2025-bennett-university-bu-greater-noida-1368337",
+        "banner": "https://drive.google.com/uc?export=view&id=1w8KoswTLIVYp-m7GQdKxiYmTxJYLjohH"
       },
       {
         "id": "1.3",
-        "name": "Beatbrawl",
-        "description": "Beatbrawl is an electrifying beatboxing competition embracing rhythm, creativity, and vocal percussion skills.",
-        "link": "https://unstop.com/p/beatforge-beatboxing-uphoria-2025-bennett-university-bu-greater-noida-1368299"
+        "name": "Beatforge",
+        "description": "Beatforge is an electrifying beatboxing competition embracing rhythm, creativity, and vocal percussion skills.",
+        "link": "https://unstop.com/p/beatforge-beatboxing-uphoria-2025-bennett-university-bu-greater-noida-1368299",
+        "banner": "https://drive.google.com/uc?export=view&id=1iGN2earyitn-VfCwOlQlYAoD1CWCaBBP"
       },
       {
         "id": "1.4",
         "name": "Mridang",
         "description": "Mridang is a solo instrumental performance event for displaying instrumental talent from various categories.",
-        "link": "https://unstop.com/p/mridang-solo-instrumental-uphoria-2025-bennett-university-bu-greater-noida-1368248"
+        "link": "https://unstop.com/p/mridang-solo-instrumental-uphoria-2025-bennett-university-bu-greater-noida-1368248",
+        "banner": "https://drive.google.com/uc?export=view&id=1pegGRD7NL9qGYfkxj6UAwYJ49UD5QJh0"
       },
       {
         "id": "1.5",
         "name": "Reverb",
         "description": "Reverb is an enchanting western solo singing competition for vocalists to explore western music.",
-        "link": "https://unstop.com/p/reverb-western-solo-singing-uphoria-2025-bennett-university-bu-greater-noida-1368319"
+        "link": "https://unstop.com/p/reverb-western-solo-singing-uphoria-2025-bennett-university-bu-greater-noida-1368319",
+        "banner": "https://drive.google.com/uc?export=view&id=1QKJLx2ZoC0B73gk3WKCPNMrob8PMtWd_"
       },
       {
         "id": "1.6",
         "name": "Aaroh",
         "description": "Aaroh is a solo Indian classical singing event to showcase Indian compositions with focus on vocal skill and emotional expression.",
-        "link": "https://unstop.com/p/aaroh-indian-solo-singing-uphoria-2025-bennett-university-bu-greater-noida-1368230"
+        "link": "https://unstop.com/p/aaroh-indian-solo-singing-uphoria-2025-bennett-university-bu-greater-noida-1368230",
+        "banner": "https://drive.google.com/uc?export=view&id=1tZdw_7Rk4uKDa3nz6P-xbusSMHX0GPme"
       }
     ]
   },
@@ -47,43 +53,43 @@
         "id": "2.1",
         "name": "Chandrakala",
         "description": "Chandrakala is a solo dance competition celebrating classical and folk-dance traditions.",
-        "link": "https://unstop.com/p/chandrakala-solo-classical-dance-uphoria-2025-bennett-university-bu-greater-noida-1367948"
+        "link": "https://unstop.com/p/chandrakala-solo-classical-dance-uphoria-2025-bennett-university-bu-greater-noida-1367948",
+        "banner": ""
       },
       {
         "id": "2.2",
         "name": "Nrityakala",
         "description": "Nrityakala is a group dance competition celebrating the diversity of Indian Classical and Folk dances.",
-        "link": "https://unstop.com/p/nrityakala-clasical-group-dance-uphoria-2025-bennett-university-bu-greater-noida-1367947"
+        "link": "https://unstop.com/p/nrityakala-clasical-group-dance-uphoria-2025-bennett-university-bu-greater-noida-1367947",
+        "banner": ""
       },
       {
         "id": "2.3",
         "name": "Groove Wars",
         "description": "Groove Wars is a group dance competition blending modern western dance styles like hip-hop and jazz.",
-        "link": "https://unstop.com/p/groove-wars-uphoria-2025-bennett-university-bu-greater-noida-1367866"
+        "link": "https://unstop.com/p/groove-wars-uphoria-2025-bennett-university-bu-greater-noida-1367866",
+        "banner": ""
       },
       {
         "id": "2.4",
         "name": "Beatblitz",
         "description": "BeatBlitz is a solo western dance showdown featuring contemporary, hip-hop, and jazz choreography.",
-        "link": "https://unstop.com/p/beat-blitz-uphoria-2025-bennett-university-bu-greater-noida-1367850"
+        "link": "https://unstop.com/p/beat-blitz-uphoria-2025-bennett-university-bu-greater-noida-1367850",
+        "banner": ""
       },
       {
         "id": "2.5",
-        "name": "Rhythemic Rebels",
-        "description": "Rhythemic Rebels is a captivating duo dance competition showcasing coordination and dynamic interplay.",
-        "link": ""
+        "name": "Freestyle Frenzy",
+        "description": "Freestyle Frenzy is a freestyle dance battle featuring raw talent, creativity, and unbounded energy.",
+        "link": "https://unstop.com/p/freestyle-frenzy-uphoria-2025-bennett-university-bu-greater-noida-1367872",
+        "banner": ""
       },
       {
         "id": "2.6",
-        "name": "Freestyle Frenzy",
-        "description": "Freestyle Frenzy is a freestyle dance battle featuring raw talent, creativity, and unbounded energy.",
-        "link": "https://unstop.com/p/freestyle-frenzy-uphoria-2025-bennett-university-bu-greater-noida-1367872"
-      },
-      {
-        "id": "2.7",
         "name": "Kala Sangam",
         "description": "Kala Sangam is a duet fusion dance competition combining two classical/folk dance styles in one performance.",
-        "link": "https://unstop.com/p/kalaa-sangam-duet-classical-dance-uphoria-2025-bennett-university-bu-greater-noida-1368650"
+        "link": "https://unstop.com/p/kalaa-sangam-duet-classical-dance-uphoria-2025-bennett-university-bu-greater-noida-1368650",
+        "banner": ""
       }
     ]
   },
@@ -92,33 +98,38 @@
     "events": [
       {
         "id": "3.1",
-        "name": "Isharo Isharo Mein",
-        "description": "Ishaaro Ishaaro Mein is an enthralling mime competition where silence speaks louder than words.",
-        "link": "https://unstop.com/p/mime-uphoria-2025-bennett-university-bu-greater-noida-1367925"
+        "name": "Mime",
+        "description": "Mime is an enthralling mime competition where silence speaks louder than words.",
+        "link": "https://unstop.com/p/mime-uphoria-2025-bennett-university-bu-greater-noida-1367925",
+        "banner": ""
       },
       {
         "id": "3.2",
         "name": "Improov Leela",
         "description": "Improv Leela is a spontaneous acting competition where teams engage in on-the-spot battles of wit and humor.",
-        "link": "https://unstop.com/p/improvleela-uphoria-2025-bennett-university-bu-greater-noida-1367922"
+        "link": "https://unstop.com/p/improvleela-uphoria-2025-bennett-university-bu-greater-noida-1367922",
+        "banner": ""
       },
       {
         "id": "3.3",
         "name": "Aagaaz",
         "description": "Aagaaz is a Nukkad Natak competition for delivering impactful messages through energetic dialogues and expressive actions.",
-        "link": "https://unstop.com/p/aagaz-uphoria-2025-bennett-university-bu-greater-noida-1367876"
+        "link": "https://unstop.com/p/aagaz-uphoria-2025-bennett-university-bu-greater-noida-1367876",
+        "banner": ""
       },
       {
         "id": "3.4",
         "name": "Abhinay",
         "description": "Abhinay is a solo performance event where participants narrate stories through captivating acting.",
-        "link": "https://unstop.com/p/abhinay-uphoria-2025-bennett-university-bu-greater-noida-1367916"
+        "link": "https://unstop.com/p/abhinay-uphoria-2025-bennett-university-bu-greater-noida-1367916",
+        "banner": ""
       },
       {
         "id": "3.5",
         "name": "Rangmanch",
         "description": "Rangmanch is about showcasing creative stories and exceptional acting with original or established plays.",
-        "link": "https://unstop.com/p/rangmanch-uphoria-2025-bennett-university-bu-greater-noida-1367918"
+        "link": "https://unstop.com/p/rangmanch-uphoria-2025-bennett-university-bu-greater-noida-1367918",
+        "banner": ""
       }
     ]
   },
@@ -129,31 +140,36 @@
         "id": "4.1",
         "name": "Mandala Art",
         "description": "Mandala Art is a competition showcasing intricate and mesmerizing mandalas designed by participants.",
-        "link": "https://unstop.com/p/mandala-art-bennett-university-bu-greater-noida-1368448"
+        "link": "https://unstop.com/p/mandala-art-bennett-university-bu-greater-noida-1368448",
+        "banner": ""
       },
       {
         "id": "4.2",
         "name": "Portraits Unplugged",
         "description": "Portraits Unplugged is a live sketching competition focused on capturing human emotions and character.",
-        "link": "https://unstop.com/p/portraits-unplugged-portrait-bennett-university-bu-greater-noida-1368456"
+        "link": "https://unstop.com/p/portraits-unplugged-portrait-bennett-university-bu-greater-noida-1368456",
+        "banner": ""
       },
       {
         "id": "4.3",
         "name": "Sketching Competition",
         "description": "Sketching Competition challenges participants to craft meaningful sketches based on a theme.",
-        "link": "https://unstop.com/p/sketching-bennett-university-bu-greater-noida-1368463"
+        "link": "https://unstop.com/p/sketching-bennett-university-bu-greater-noida-1368463",
+        "banner": ""
       },
       {
         "id": "4.4",
         "name": "Doodling",
         "description": "Doodling is a competition where participants create compelling stories through simple doodles.",
-        "link": "https://unstop.com/p/doodling-uphoria-2025-bennett-university-bu-greater-noida-1368414"
+        "link": "https://unstop.com/p/doodling-uphoria-2025-bennett-university-bu-greater-noida-1368414",
+        "banner": ""
       },
       {
         "id": "4.5",
         "name": "Fusion Frames",
         "description": "Fusion Frames is a mixed medium art competition where participants blend traditional mediums to create unique artwork.",
-        "link": "https://unstop.com/p/fusion-frames-canvas-painting-bennett-university-bu-greater-noida-1368430"
+        "link": "https://unstop.com/p/fusion-frames-canvas-painting-bennett-university-bu-greater-noida-1368430",
+        "banner": ""
       }
     ]
   },
@@ -164,13 +180,15 @@
         "id": "5.1",
         "name": "Supernova",
         "description": "Supernova is a fashion show where fashion teams compete, showcasing breathtaking designs, stunning models, and spectacular performances.",
-        "link": "https://unstop.com/p/supernova-uphoria-2025-bennett-university-bu-greater-noida-1367938"
+        "link": "https://unstop.com/p/supernova-uphoria-2025-bennett-university-bu-greater-noida-1367938",
+        "banner": ""
       },
       {
         "id": "5.2",
         "name": "Mr and Ms Uphoria",
         "description": "Mr and Ms Uphoria is a talent and beauty competition promoting youth in dance, singing, mimicking, modelling, and more.",
-        "link": "https://unstop.com/p/mr-and-ms-uphoria-uphoria-2025-bennett-university-bu-greater-noida-1367945"
+        "link": "https://unstop.com/p/mr-and-ms-uphoria-uphoria-2025-bennett-university-bu-greater-noida-1367945",
+        "banner": ""
       }
     ]
   },
@@ -181,119 +199,108 @@
         "id": "6.1",
         "name": "Bgmi Showdown",
         "description": "Bgmi Showdown is a thrilling BGMI tournament where teams compete for the championship title.",
-        "link": ""
+        "link": "",
+        "banner": ""
       },
       {
         "id": "6.2",
-        "name": "Iron Fist Championship",
-        "description": "Iron Fist Championship is a Tekken tournament testing skill, strategy, and precision.",
-        "link": ""
+        "name": "Takken",
+        "description": "Takken is a Tekken tournament testing skill, strategy, and precision.",
+        "link": "",
+        "banner": ""
       },
       {
         "id": "6.3",
         "name": "VPL",
         "description": "Valorant Premier League is an esports showdown where teams compete for glory and prizes.",
-        "link": ""
+        "link": "",
+        "banner": ""
       },
       {
         "id": "6.4",
-        "name": "Pro Kickoff Club",
-        "description": "Pro Kickoff Cup is a FIFA gaming competition where players battle for glory in football.",
-        "link": ""
-      },
-      {
-        "id": "6.5",
-        "name": "Cookie Run India",
-        "description": "Cookie Run India is a gaming event inspired by the game Cookie Run, testing players' speed and strategy.",
-        "link": ""
-      },
-      {
-        "id": "6.6",
-        "name": "Echo Strike",
-        "description": "Echo Strike is a team-based battle royale event where squads compete for victory.",
-        "link": ""
-      },
-      {
-        "id": "6.7",
-        "name": "Pitch Perfect",
-        "description": "Pitch Perfect is a virtual cricket gaming tournament where players compete in Real Cricket.",
-        "link": ""
+        "name": "FIFA",
+        "description": "FIFA is a FIFA gaming competition where players battle for glory in football.",
+        "link": "",
+        "banner": ""
       }
     ]
   },
-    {
-        "category": "Literary",
-        "events": [
-            { 
-                "id": "7.1", 
-                "name": "Popcorn and Playoffs", 
-                "description": "Popcorn and Playoffs is a sports and entertainment quiz with team participation and three exciting rounds.", 
-                "link": "https://unstop.com/p/popcorn-and-playoffs-literary-uphoria-2025-bennett-university-bu-greater-noida-1368535"
-            },
-            { 
-                "id": "7.2", 
-                "name": "Just A Minute", 
-                "description": "Just A Minute challenges participants to speak on a random topic for a full minute without pausing, repeating, or going off-topic.", 
-                "link": "https://unstop.com/p/just-a-minute-literary-uphoria-2025-bennett-university-bu-greater-noida-1368538"
-            },
-            { 
-                "id": "7.3", 
-                "name": "VPL", 
-                "description": "Valorant Premier League at the college fest is a competitive gaming event with teams vying for the championship.", 
-                "link": "https://unstop.com/p/vpl-literary-uphoria-2025-bennett-university-bu-greater-noida-1368541"
-            },
-            { 
-                "id": "7.4", 
-                "name": "Opinionated 2.0", 
-                "description": "Opinionated is a public speaking competition where participants deliver speeches and engage in rebuttal rounds.", 
-                "link": "https://unstop.com/p/opinionated-20-literary-uphoria-2025-bennett-university-bu-greater-noida-1368544"
-            },
-            { 
-                "id": "7.5", 
-                "name": "Mehfil-E-Alfaaz", 
-                "description": "Mehfil-E-Alfaaz is a poetry competition where participants express emotions through poetry, ghazals, or shayari.", 
-                "link": "https://unstop.com/p/mehfil-e-alfaaz-literary-uphoria-2025-bennett-university-bu-greater-noida-1368547"
-            }
-        ]
-    },
-    {
-        "category": "Photography",
-        "events": [
-            { 
-                "id": "8.1", 
-                "name": "Pixel Perfect", 
-                "description": "Pixel Perfect is a graphic design competition where participants showcase their design skills.", 
-                "link": "https://unstop.com/p/pixel-perfect-photography-uphoria-2025-bennett-university-bu-greater-noida-1368550"
-            },
-            { 
-                "id": "8.2", 
-                "name": "Dazzled", 
-                "description": "Dazzled is a phone photography competition where participants capture campus moments using a specific app.", 
-                "link": "https://unstop.com/p/dazzled-photography-uphoria-2025-bennett-university-bu-greater-noida-1368553"
-            },
-            { 
-                "id": "8.3", 
-                "name": "Impromptu Frames", 
-                "description": "Impromptu Frames is an on-spot photography competition where participants capture unique moments across three days.", 
-                "link": "https://unstop.com/p/impromptu-frames-photography-uphoria-2025-bennett-university-bu-greater-noida-1368556"
-            },
-            { 
-                "id": "8.4", 
-                "name": "Page to Picture", 
-                "description": "Page to Picture is a competition where filmmakers translate written works into visual storytelling.", 
-                "link": "https://unstop.com/p/page-to-picture-photography-uphoria-2025-bennett-university-bu-greater-noida-1368559"
-            }
-        ]
-    },
-    {
-        "category": "Astronomy",
-        "events": [
-            { 
-                "id": "9.1", 
-                "name": "StellarVision", 
-                "description": "StellarVision 2.0 invites astronomy enthusiasts to present their visionary ideas related to the wonders of the universe.", 
-                "link": "https://unstop.com/p/stellarvision-astronomy-uphoria-2025-bennett-university-bu-greater-noida-1368562"
-            }
-        ]
-    }
+  {
+    "category": "Literary",
+    "events": [
+      {
+        "id": "7.1",
+        "name": "Popcorn and Playoffs",
+        "description": "Popcorn and Playoffs is a sports and entertainment quiz with team participation and three exciting rounds.",
+        "link": "https://unstop.com/p/popcorn-and-playoffs-literary-uphoria-2025-bennett-university-bu-greater-noida-1368535",
+        "banner": ""
+      },
+      {
+        "id": "7.2",
+        "name": "Just A Minute",
+        "description": "Just A Minute challenges participants to speak on a random topic for a full minute without pausing, repeating, or going off-topic.",
+        "link": "https://unstop.com/p/just-a-minute-literary-uphoria-2025-bennett-university-bu-greater-noida-1368538",
+        "banner": ""
+      },
+      {
+        "id": "7.3",
+        "name": "Opinionated 2.0",
+        "description": "Opinionated is a public speaking competition where participants deliver speeches and engage in rebuttal rounds.",
+        "link": "https://unstop.com/p/opinionated-20-literary-uphoria-2025-bennett-university-bu-greater-noida-1368544",
+        "banner": ""
+      },
+      {
+        "id": "7.4",
+        "name": "Mehfil-E-Alfaaz",
+        "description": "Mehfil-E-Alfaaz is a poetry competition where participants express emotions through poetry, ghazals, or shayari.",
+        "link": "https://unstop.com/p/mehfil-e-alfaaz-literary-uphoria-2025-bennett-university-bu-greater-noida-1368547",
+        "banner": ""
+      }
+    ]
+  },
+  {
+    "category": "Photography",
+    "events": [
+      {
+        "id": "8.1",
+        "name": "Pixel Perfect",
+        "description": "Pixel Perfect is a graphic design competition where participants showcase their design skills.",
+        "link": "https://unstop.com/p/pixel-perfect-photography-uphoria-2025-bennett-university-bu-greater-noida-1368550",
+        "banner": ""
+      },
+      {
+        "id": "8.2",
+        "name": "Dazzled",
+        "description": "Dazzled is a phone photography competition where participants capture campus moments using a specific app.",
+        "link": "https://unstop.com/p/dazzled-photography-uphoria-2025-bennett-university-bu-greater-noida-1368553",
+        "banner": ""
+      },
+      {
+        "id": "8.3",
+        "name": "Impromptu Frames",
+        "description": "Impromptu Frames is an on-spot photography competition where participants capture unique moments across three days.",
+        "link": "https://unstop.com/p/impromptu-frames-photography-uphoria-2025-bennett-university-bu-greater-noida-1368556",
+        "banner": ""
+      },
+      {
+        "id": "8.4",
+        "name": "Page to Picture",
+        "description": "Page to Picture is a competition where filmmakers translate written works into visual storytelling.",
+        "link": "https://unstop.com/p/page-to-picture-photography-uphoria-2025-bennett-university-bu-greater-noida-1368559",
+        "banner": ""
+      }
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "events": [
+      {
+        "id": "9.1",
+        "name": "StellarVision",
+        "description": "StellarVision 2.0 invites astronomy enthusiasts to present their visionary ideas related to the wonders of the universe.",
+        "link": "https://unstop.com/p/stellarvision-astronomy-uphoria-2025-bennett-university-bu-greater-noida-1368562",
+        "banner": ""
+      }
+    ]
+  }
 ]
