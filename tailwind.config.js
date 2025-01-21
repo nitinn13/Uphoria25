@@ -8,10 +8,12 @@ export default {
     extend: {
       fontFamily: {
         'ibm-plex-condensed': ['"IBM Plex Sans Condensed"', 'sans-serif'],
+        charm: ['"Charm"', 'cursive'],
       },
       backgroundImage: {
         // 'uphoria': "url('/Uphoriabg.svg')",
         'uphoria': "url('/bgpng.png')",
+        'bgdesktop' : "url('/bgdesktop.jpg')",
       },
     },
   },

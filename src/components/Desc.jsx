@@ -7,7 +7,7 @@ const Desc = () => {
                 <span className='glowing-text-light'>
                     A melange of social and cultural activities filled with adrenaline rush of participants across colleges, the magnum opus event of Bennett University rightfully stands up to its namesake,
                 </span>
-                <span className='font-bold text-[#E5E4E2] glowing-text'> UPHORIA</span>.
+                <span className='font-bold font-charm text-[#E5E4E2] glowing-text'> UPHORIA</span>.
             </h1>
         </div>
     )

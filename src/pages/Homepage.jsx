@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 
 const Homepage = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[10vw]  '>
+    <div className='flex flex-col items-center justify-center gap-[12vw]  '>
       <div className='sticky top-[1vh] z-10'>
         <Navbar />
       </div>

@@ -28,11 +28,6 @@ const App = () => {
   return (
 
     <div className="w-full min-h-screen bg-uphoria bg-no-repeat bg-cover bg-center flex flex-col items-center font-ibm-plex-condensed">
-
-
-
-
-
       <RouterProvider router={router} />
     </div>
 
