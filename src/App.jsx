@@ -26,11 +26,15 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
+<<<<<<< Updated upstream
 
     <div className="w-[100vw] min-h-screen bg-uphoria bg-no-repeat bg-cover bg-center flex flex-col items-center font-ibm-plex-condensed">
 
 
 
+=======
+    <div className="w-full min-h-screen bg-uphoria bg-no-repeat bg-cover bg-center flex flex-col items-center font-ibm-plex-condensed ">
+>>>>>>> Stashed changes
 
       <RouterProvider router={router} />
     </div>
