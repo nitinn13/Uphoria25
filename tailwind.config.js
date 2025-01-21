@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'ibm-plex-condensed': ['"IBM Plex Sans Condensed"', 'sans-serif'],
+      },
       backgroundImage: {
         // 'uphoria': "url('/Uphoriabg.svg')",
         'uphoria': "url('/bgpng.png')",

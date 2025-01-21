@@ -3,6 +3,7 @@ import Uphoriatext from '../components/Uphoriatext'
 import Navbar from '../components/Navbar'
 import Desc from '../components/Desc'
 import Categories from '../components/Categories'
+import Dates from '../components/Dates'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
 
       <Uphoriatext />
       <Desc />
+      {/* <Dates/> */}
       <Categories/>
     </div>
   )
