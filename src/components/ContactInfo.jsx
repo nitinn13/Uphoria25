@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <div className="w-full min-h-screen p-4 flex items-center justify-center mt-[-5vh] sm:mt-[-25vh]">
+    <div className="w-full p-4 flex items-center justify-center mt-[-5vh] sm:mt-[-25vh] mb-[10vh]">
       <div className="w-full max-w-4xl mx-auto">
         <div className="relative backdrop-blur-sm rounded-xl overflow-hidden">
           {/* Background gradient */}

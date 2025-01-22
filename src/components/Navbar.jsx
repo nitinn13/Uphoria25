@@ -13,18 +13,21 @@ const Navbar = ({ onEventsClick }) => {
 
   return (
     <nav className="relative">
-      <div className="flex flex-row items-center justify-between gap-[20vw] mx-2">
+      <div className="flex flex-row items-center justify-between gap-[15vw] mx-2">
         <div className="w-24 md:w-auto">
-          <img src="logo1.svg" alt="TimesLogo" className="h-auto" />
+          <img src="logo1.svg" alt="TimesLogo" className="h-auto" 
+            height={300}
+            width={300}
+          />
         </div>
         <div className="hidden md:block mx-auto">
           <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400">
             <ul className="flex justify-around items-center gap-6 mx-5 my-3">
-              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
-                <li key={index} className="hover:text-gray-300">
+              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors',  'Accomodation'].map((item, index) => (
+                <li key={index} className=" hover:text-gray-300">
                   {item === 'Events' ? (
                     <button
-                      className="text-white"
+                      className="text-white hover:text-gray-300"
                       onClick={() => handleLinkClick(item)}
                     >
                       {item}
@@ -32,7 +35,7 @@ const Navbar = ({ onEventsClick }) => {
                   ) : (
                     <NavLink
                       to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                      className="text-white"
+                      className="text-white hover:text-gray-300"
                     >
                       {item}
                     </NavLink>
@@ -44,7 +47,10 @@ const Navbar = ({ onEventsClick }) => {
         </div>
         <div className="ml-auto flex items-center">
           <div className="w-24 md:w-auto ml-4 md:mr-0">
-            <img src="logo2.svg" alt="TimesLogo" className="h-auto" />
+            <img src="logo2.svg" alt="TimesLogo" className="h-auto"
+              height={300}
+              width={300}
+            />
           </div>
           <button
             className="md:hidden ml-8 text-white p-0"
@@ -67,11 +73,11 @@ const Navbar = ({ onEventsClick }) => {
         <div className="md:hidden absolute w-full bg-slate-900/95 backdrop-blur-sm z-50">
           <div className="border-2 border-[#E6C373] rounded-xl m-4 bg-[rgba(25,25,112,0.4)]">
             <ul className="flex flex-col items-center py-4">
-              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
-                <li key={index} className="w-full">
+              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors',  'Accomodation'].map((item, index) => (
+                <li key={index} className="w-fullcflex flex-col items-center justify-center">
                   {item === 'Events' ? (
                     <button
-                      className="block py-3 px-4 text-white hover:bg-slate-700/50 text-center"
+                      className="block py-3 px-4 text-white hover:bg-slate-700/50 text-center "
                       onClick={() => handleLinkClick(item)}
                     >
                       {item}

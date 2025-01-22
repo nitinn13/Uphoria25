@@ -34,10 +34,7 @@ const FAQSection = () => {
       question: "How can I pay the registration fee?",
       answer: "The payment can be made through credit/debit card, UPI or Wallet , through the link mentioned in Unstop's description."
     },
-    // {
-    //   question: "How can I track my order?",
-    //   answer: "Once your order ships, you'll receive a confirmation email with a tracking number. You can use this number to track your package on our website or directly through the carrier's tracking system."
-    // }
+  
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
@@ -59,7 +56,7 @@ const FAQSection = () => {
             className="border border-gray-200 rounded-lg shadow-sm"
           >
             <button
-className="w-full flex justify-between items-center p-4 text-left focus:outline-none hover:font-bold focus:ring-2 focus:ring-blue-500 "
+className="w-full flex justify-between items-center p-4 text-left focus:outline-none hover:font-bold "
 
               onClick={() => toggleQuestion(index)}
               aria-expanded={openIndex === index}

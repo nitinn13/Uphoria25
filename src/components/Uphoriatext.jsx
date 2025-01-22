@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import '../App.css'
+import React, { useEffect, useState } from 'react';
+import '../App.css';
 import Magnet from './Magnet';
 
 const Uphoriatext = () => {
   const [isPulse, setIsPulse] = useState(false);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPulse(true);
@@ -11,22 +12,28 @@ const Uphoriatext = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
-    <div >
-      <div className="flex justify-center items-center ">
+    <div className="flex flex-col items-center justify-center  px-4 md:px-8">
+      <div className="flex justify-center items-center w-full">
         <img
           src="text.svg"
           alt="Uphoria2025"
-          height={700}
-          width={700}
-          className={isPulse ? 'animate-pulse' : 'animate-minimalistic'}
+          className={`transition-all ${
+            isPulse ? 'animate-pulse' : 'animate-minimalistic'
+          }`}
+          style={{
+            height: 'auto',
+            maxHeight: '70vh', // Ensures image doesn't exceed screen height
+            maxWidth: '100%', // Ensures image scales within the viewport width
+          }}
         />
       </div>
-      <div className='float-right'>
-        <Magnet/>
+      <div className="mt-6 md:mt-8 lg:mt-10 w-full flex justify-end">
+        <Magnet />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Uphoriatext
+export default Uphoriatext;
