@@ -32,7 +32,7 @@ const AccomComp = () => {
 
   return (
     <div id="accomcomp" className="flex flex-col items-center container mx-auto p-4">
-      <h2 className="text-center text-[10vw] sm:text-[8vh] md:text-[6vh] lg:text-[12vh] font-bold text-[#E6C373] font-charm 
+      <h2 className="text-center text-[10vw] mt-[10vh] mb-[10vh] sm:text-[8vh] md:text-[6vh] lg:text-[12vh] font-bold text-[#E6C373] font-charm 
                [text-shadow:0_0_5px_rgba(230,195,115,0.6),0_0_10px_rgba(230,195,115,0.4)] uppercase">
         Accommodation
       </h2>
