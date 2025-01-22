@@ -19,25 +19,25 @@ const ChevronIcon = () => (
 const FAQSection = () => {
   const faqs = [
     {
-      question: "What payment methods do you accept?",
-      answer: "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers. For business customers, we also offer invoice-based payments with net-30 terms."
+      question: "Will the university be providing us accommodations?",
+      answer: "Yes! Your safe stay will be ensured if your event requires it by the university which will be payable by you at a fair cost."
     },
     {
-      question: "How long does shipping take?",
-      answer: "Shipping times vary by location. Domestic orders typically arrive within 3-5 business days. International shipping can take 7-14 business days. Express shipping options are available at checkout for faster delivery."
+      question: "Can I participate in multiple events?",
+      answer: "Yes! It is completely alright for you to participate in any number of events you'd like to, as long as their timelines don't crash. Be sure to get registered ASAP!"
     },
     {
-      question: "What is your return policy?",
-      answer: "We offer a 30-day return policy for all unused items in their original packaging. Simply contact our customer service team for a return authorization and shipping instructions. Refunds are processed within 5-7 business days after we receive the returned item."
+      question: "What is the eligibility criteria for registration?",
+      answer: "While Eligibility varies form event to event, students in 10+2 or equivalent grade and students currently pursuing undergraduate course in any discipline are eligible for most of the listed events."
     },
     {
-      question: "Do you offer international shipping?",
-      answer: "Yes, we ship to most countries worldwide. International shipping costs and delivery times vary by location. You can view specific shipping rates and estimated delivery times by entering your address during checkout."
+      question: "How can I pay the registration fee?",
+      answer: "The payment can be made through credit/debit card, UPI or Wallet , through the link mentioned in Unstop's description."
     },
-    {
-      question: "How can I track my order?",
-      answer: "Once your order ships, you'll receive a confirmation email with a tracking number. You can use this number to track your package on our website or directly through the carrier's tracking system."
-    }
+    // {
+    //   question: "How can I track my order?",
+    //   answer: "Once your order ships, you'll receive a confirmation email with a tracking number. You can use this number to track your package on our website or directly through the carrier's tracking system."
+    // }
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
@@ -47,7 +47,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto px-4 py-8">
+    <div className="w-full max-w-3xl mx-auto px-4 py-8 mt-[-5vh] sm:mt-[-15vh]">
       <h2 className="text-3xl font-bold text-[#e6c373] mb-8 text-center glowing-text">
         Frequently Asked Questions
       </h2>
@@ -59,12 +59,13 @@ const FAQSection = () => {
             className="border border-gray-200 rounded-lg shadow-sm"
           >
             <button
-              className="w-full flex justify-between items-center p-4 text-left focus:outline-none focus:ring-2 focus:ring-blue-500 hover:bg-neutral-500"
+className="w-full flex justify-between items-center p-4 text-left focus:outline-none hover:font-bold focus:ring-2 focus:ring-blue-500 "
+
               onClick={() => toggleQuestion(index)}
               aria-expanded={openIndex === index}
               aria-controls={`faq-answer-${index}`}
             >
-              <span className="font-medium text-gray-100">{faq.question}</span>
+              <span className="font-[3vx]  text-gray-100">{faq.question}</span>
               <span className={`text-neutral-500 transition-transform duration-200 ${
                 openIndex === index ? 'transform rotate-180' : ''
               }`}>

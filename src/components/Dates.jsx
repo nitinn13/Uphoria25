@@ -1,16 +1,23 @@
-import React from 'react'
-// import Dates from '../../public/Dates.svg'
-const Dates = () => {
-    return (
-        <div className="flex justify-center items-center my-[20vh]">
-            <img
-                src="date.svg"
-                alt="Dates"
-                height={600}
-                width={600}
-            />
-        </div>
-    )
-}
+import React from 'react';
 
-export default Dates
+const Dates = () => {
+  return (
+    <div className="flex justify-center items-center min-h-screen mt-[-5vh] ">
+      <div className="w-8/12">
+        <img
+          src="date.svg"
+          alt="Dates"
+          className="w-full mx-auto object-contain
+            h-64 
+            sm:h-80 
+            md:h-96 
+            lg:h-[30rem] 
+            xl:h-[30rem]
+            2xl:h-[40rem]"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Dates;

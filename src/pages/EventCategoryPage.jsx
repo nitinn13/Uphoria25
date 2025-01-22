@@ -37,6 +37,7 @@ const EventCategoryPage = () => {
           {events.map((event) => (
             <a
               href={event.link}
+              target="_blank"
               key={event.id}
               className="block"
             >

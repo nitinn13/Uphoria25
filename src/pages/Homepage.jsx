@@ -4,8 +4,10 @@ import Navbar from '../components/Navbar';
 import Desc from '../components/Desc';
 import Categories from '../components/Categories';
 import Dates from '../components/Dates';
-import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import PrizePool from '../components/PrizePool';
+import ContactInfo from '../components/ContactInfo';
+import FAQSection from '../components/FAQsection';
 
 const Homepage = () => {
   const categoriesRef = useRef(null);
@@ -28,7 +30,10 @@ const Homepage = () => {
       <div ref={categoriesRef}>
         <Categories />
       </div>
-      <Contact />
+      <FAQSection/>
+      <ContactInfo />
+      <Footer/>
+      
     </div>
   );
 };

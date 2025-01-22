@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Contact = () => {
+const Footer = () => {
   return (
-    <div className="relative w-full bg-slate-900/50 backdrop-blur-sm">
+    <div className="relative w-full bg-slate-900/50 backdrop-blur-sm mt-[-5vh] sm:mt-[-35vh]">
       {/* Main content wrapper with padding and glass effect */}
       <div className="relative border-b  border-blue-500 pb-3 animate-pulse w-full ">
         {/* Glowing border effect */}
@@ -10,7 +10,7 @@ const Contact = () => {
 
         {/* Header */}
         <h1 className="my-2 text-center text-4xl text-gray-200 glowing-text-light">
-          Designed With Love
+          Bennett University
         </h1>
 
         {/* Team title */}
@@ -86,4 +86,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Footer;
