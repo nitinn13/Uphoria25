@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dates = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen mt-[-5vh] ">
+    <div className="flex justify-center items-center mt-[-5vh] ">
       <div className="w-8/12">
         <img
           src="date.svg"

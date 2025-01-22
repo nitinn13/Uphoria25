@@ -115,7 +115,7 @@
         "name": "Aagaaz",
         "description": "Aagaaz is a Nukkad Natak competition for delivering impactful messages through energetic dialogues and expressive actions.",
         "link": "https://unstop.com/p/aagaz-uphoria-2025-bennett-university-bu-greater-noida-1367876",
-        "banner": "/eventbanners/Ansh/Aagaz (Aakrosh).png"
+        "banner": "/eventbanners/Ansh/Aagaz.png"
       },
       {
         "id": "3.4",
@@ -199,14 +199,14 @@
         "id": "6.1",
         "name": "Bgmi Showdown",
         "description": "Bgmi Showdown is a thrilling BGMI tournament where teams compete for the championship title.",
-        "link": "",
+        "link": "https://unstop.com/events/bgmi-uphoria-2025-bennett-university-bu-greater-noida-1367748",
         "banner": "/eventbanners/BU Gamers/BGMI.png"
       },
       {
         "id": "6.2",
         "name": "Takken",
         "description": "Takken is a Tekken tournament testing skill, strategy, and precision.",
-        "link": "",
+        "link": "https://unstop.com/events/tekken-uphoria-2025-bennett-university-bu-greater-noida-1367935",
         "banner": "/eventbanners/BU Gamers/Tekken.png"
       },
       {
@@ -220,7 +220,7 @@
         "id": "6.4",
         "name": "FIFA",
         "description": "FIFA is a FIFA gaming competition where players battle for glory in football.",
-        "link": "",
+        "link": "https://unstop.com/events/fifa-uphoria-2025-bennett-university-bu-greater-noida-1367929",
         "banner": "/eventbanners/BU Gamers/FIFA.png"
       }
     ]
@@ -232,32 +232,46 @@
         "id": "7.1",
         "name": "Popcorn and Playoffs",
         "description": "Popcorn and Playoffs is a sports and entertainment quiz with team participation and three exciting rounds.",
-        "link": "https://unstop.com/p/popcorn-and-playoffs-literary-uphoria-2025-bennett-university-bu-greater-noida-1368535",
+        "link": "https://unstop.com/events/playoff-and-popcorns-sports-and-entertainment-quiz-uphoria-2025-bennett-university-bu-greater-noida-1368658",
         "banner": "/eventbanners/Cerebrum/Playoff and pop corns.png"
       },
       {
         "id": "7.2",
         "name": "Just A Minute",
         "description": "Just A Minute challenges participants to speak on a random topic for a full minute without pausing, repeating, or going off-topic.",
-        "link": "https://unstop.com/p/just-a-minute-literary-uphoria-2025-bennett-university-bu-greater-noida-1368538",
+        "link": "https://unstop.com/events/just-a-minute-english-uphoria-2025-bennett-university-bu-greater-noida-1368362",
         "banner": "/eventbanners/Cerebrum/JAM (Eng).png"
       },
       {
         "id": "7.3",
         "name": "Opinionated 2.0",
         "description": "Opinionated is a public speaking competition where participants deliver speeches and engage in rebuttal rounds.",
-        "link": "https://unstop.com/p/opinionated-20-literary-uphoria-2025-bennett-university-bu-greater-noida-1368544",
+        "link": "https://unstop.com/events/opinionated-debate-uphoria-2025-bennett-university-bu-greater-noida-1368663",
         "banner": "/eventbanners/Cerebrum/Opinionated.png"
       },
       {
         "id": "7.4",
         "name": "Mehfil-E-Alfaaz",
         "description": "Mehfil-E-Alfaaz is a poetry competition where participants express emotions through poetry, ghazals, or shayari.",
-        "link": "https://unstop.com/p/mehfil-e-alfaaz-literary-uphoria-2025-bennett-university-bu-greater-noida-1368547",
+        "link": "https://unstop.com/events/poetry-hindi-uphoria-2025-bennett-university-bu-greater-noida-1368389",
         "banner": "/eventbanners/Cerebrum/Poetry (Hindi).png"
+      },
+      {
+        "id": "7.5",
+        "name": "Poetry English",
+        "description": "Poetry English invites participants to showcase their poetic flair and creativity in English through compelling verses.",
+        "link": "https://unstop.com/events/poetry-english-uphoria-2025-bennett-university-bu-greater-noida-1368372",
+        "banner": "/eventbanners/Cerebrum/Poetry (Eng).png"
+      },
+      {
+        "id": "7.6",
+        "name": "Once Upon A Spotlight",
+        "description": "Once Upon A Spotlight is a storytelling event where participants captivate the audience with their engaging narratives and imagination.",
+        "link": "https://unstop.com/events/once-upon-a-spotlight-story-telling-uphoria-2025-bennett-university-bu-greater-noida-1369875",
+        "banner": "/eventbanners/Castify/Once Upon a spotlight.png"
       }
     ]
-  },
+  },  
   {
     "category": "Photography",
     "events": [
@@ -265,28 +279,21 @@
         "id": "8.1",
         "name": "Pixel Perfect",
         "description": "Pixel Perfect is a graphic design competition where participants showcase their design skills.",
-        "link": "https://unstop.com/p/pixel-perfect-photography-uphoria-2025-bennett-university-bu-greater-noida-1368550",
+        "link": "https://unstop.com/events/pixel-perfect-offline-graphic-designing-uphoria-2025-bennett-university-bu-greater-noida-1367873",
         "banner": "/eventbanners/ISAC/Pixel Perfect.png"
       },
       {
         "id": "8.2",
-        "name": "Dazzled",
-        "description": "Dazzled is a phone photography competition where participants capture campus moments using a specific app.",
-        "link": "https://unstop.com/p/dazzled-photography-uphoria-2025-bennett-university-bu-greater-noida-1368553",
-        "banner": ""
-      },
-      {
-        "id": "8.3",
         "name": "Impromptu Frames",
         "description": "Impromptu Frames is an on-spot photography competition where participants capture unique moments across three days.",
-        "link": "https://unstop.com/p/impromptu-frames-photography-uphoria-2025-bennett-university-bu-greater-noida-1368556",
+        "link": "https://unstop.com/events/impromptu-frames-uphoria-2025-bennett-university-bu-greater-noida-1367857",
         "banner": "/eventbanners/ISAC/Impromptu Frames.png"
       },
       {
-        "id": "8.4",
+        "id": "8.3",
         "name": "Page to Picture",
         "description": "Page to Picture is a competition where filmmakers translate written works into visual storytelling.",
-        "link": "https://unstop.com/p/page-to-picture-photography-uphoria-2025-bennett-university-bu-greater-noida-1368559",
+        "link": "https://unstop.com/events/page-to-picture-uphoria-2025-bennett-university-bu-greater-noida-1367870",
         "banner": "/eventbanners/ISAC/Page to picture.png"
       }
     ]
@@ -298,7 +305,7 @@
         "id": "9.1",
         "name": "StellarVision",
         "description": "StellarVision 2.0 invites astronomy enthusiasts to present their visionary ideas related to the wonders of the universe.",
-        "link": "https://unstop.com/p/stellarvision-astronomy-uphoria-2025-bennett-university-bu-greater-noida-1368562",
+        "link": "https://unstop.com/events/stellar-vision-uphoria-2025-bennett-university-bu-greater-noida-1367697",
         "banner": "/eventbanners/Astronomy/Stellar Vison.png"
       }
     ]
