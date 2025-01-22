@@ -24,6 +24,7 @@ const PrizePool = () => {
                     separator=","
                     duration={2} 
                 />
+                
             </div>
         </div>
     );
