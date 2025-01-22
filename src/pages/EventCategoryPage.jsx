@@ -33,7 +33,7 @@ const EventCategoryPage = () => {
       <h1 className="text-center text-[14vh] font-bold text-[#E6C373] font-charm 
                [text-shadow:0_0_5px_rgba(230,195,115,0.6),0_0_10px_rgba(230,195,115,0.4)] uppercase">{categoryName}</h1>
       {events.length > 0 ? (
-        <div className="flex flex-col items-center justify-center gap-8 px-5 pb-8">
+        <div className="grid grid-cols-2 items-center justify-center gap-8 px-5 pb-8">
           {events.map((event) => (
             <a
               href={event.link}
@@ -41,17 +41,17 @@ const EventCategoryPage = () => {
               className="block"
             >
               <div
-                className="p-5 border-2 border-[#E6C373] rounded-lg hover:bg-[rgba(25,25,112,0.4)] transition-all duration-300 ease-in-out"
+                className="border-2 border-[#E6C373] rounded-lg hover:bg-[rgba(25,25,112,0.4)] transition-all duration-300 ease-in-out w-[40vw] overflow-hidden aspect-[1920/560]"
               >
-                {/* Uncomment or modify the following lines if you want to display additional information */}
-                {/* <h2 className="text-2xl font-semibold mb-3">{event.name}</h2> */}
-                {/* <p className="text-sm text-gray-300">{event.description}</p> */}
                 <img
                   src={event.banner}
                   alt={`${event.name} banner`}
-                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  className="object-cover w-full h-full"
                 />
               </div>
+
+
             </a>
           ))}
 

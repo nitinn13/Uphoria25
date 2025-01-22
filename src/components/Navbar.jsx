@@ -1,44 +1,51 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-
-const Navbar = () => {
-  // <<<<<<< Updated upstream
+const Navbar = ({ onEventsClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleLinkClick = (link) => {
+    if (link === 'Events') {
+      onEventsClick(); // Scroll to Categories for "Events"
+    }
+    setIsMenuOpen(false); // Close the mobile menu on link click
+  };
 
   return (
     <nav className="relative">
-      {/* Desktop and Mobile Main Bar */}
-      <div className='flex flex-row items-center justify-between gap-[20vw] mx-2'>
-        {/* Left Logo */}
-        <div className=" w-24 md:w-auto">
+      <div className="flex flex-row items-center justify-between gap-[20vw] mx-2">
+        <div className="w-24 md:w-auto">
           <img src="logo1.svg" alt="TimesLogo" className="h-auto" />
         </div>
-
-        {/* Desktop Menu */}
         <div className="hidden md:block mx-auto">
           <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400">
-            <ul className="flex  justify-around items-center gap-6 mx-5 my-3">
+            <ul className="flex justify-around items-center gap-6 mx-5 my-3">
               {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
                 <li key={index} className="hover:text-gray-300">
-                  
-                  <NavLink to={item === 'Home' ? '/' : `/${item}`}>
-                    {item}
-                  </NavLink>
+                  {item === 'Events' ? (
+                    <button
+                      className="text-white"
+                      onClick={() => handleLinkClick(item)}
+                    >
+                      {item}
+                    </button>
+                  ) : (
+                    <NavLink
+                      to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
+                      className="text-white"
+                    >
+                      {item}
+                    </NavLink>
+                  )}
                 </li>
               ))}
             </ul>
           </div>
         </div>
-
-        {/* Right Logo and Mobile Menu Button Container */}
         <div className="ml-auto flex items-center">
           <div className="w-24 md:w-auto ml-4 md:mr-0">
-            <img classname=" " src="logo2.svg" alt="TimesLogo" className="h-auto" />
+            <img src="logo2.svg" alt="TimesLogo" className="h-auto" />
           </div>
-
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden ml-8 text-white p-0"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -56,21 +63,27 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-
-      {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden  absolute w-full bg-slate-900/95 backdrop-blur-sm z-50">
+        <div className="md:hidden absolute w-full bg-slate-900/95 backdrop-blur-sm z-50">
           <div className="border-2 border-[#E6C373] rounded-xl m-4 bg-[rgba(25,25,112,0.4)]">
             <ul className="flex flex-col items-center py-4">
-              {['Events', 'Timeline', 'About', 'Contact', 'Gallery'].map((item, index) => (
+              {['Home', 'Timeline', 'Events', 'Gallery', 'Sponsors', 'Contact'].map((item, index) => (
                 <li key={index} className="w-full">
-                  <a
-                    href="#"
-                    className="block py-3 px-4 text-white hover:bg-slate-700/50 text-center"
-                    aria-label={`Navigate to ${item}`}
-                  >
-                    {item}
-                  </a>
+                  {item === 'Events' ? (
+                    <button
+                      className="block py-3 px-4 text-white hover:bg-slate-700/50 text-center"
+                      onClick={() => handleLinkClick(item)}
+                    >
+                      {item}
+                    </button>
+                  ) : (
+                    <NavLink
+                      to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
+                      className="block py-3 px-4 text-white hover:bg-slate-700/50 text-center"
+                    >
+                      {item}
+                    </NavLink>
+                  )}
                 </li>
               ))}
             </ul>
@@ -78,30 +91,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  )
-}
-// =======
-//   return (
-//     <div className='flex flex-row justify-between items-center gap-[20vw]'>
-//       <div>
-//         <img src="logo1.svg" alt="TimesLogo" />
-//       </div>
-//       <div className="border-2 border-[#E6C373] rounded-3xl bg-[rgba(25,25,112,0.4)] text-white hover:border-gray-400 mx-4 my-3">
-//         <ul className="flex flex-wrap justify-around items-center gap-7 mx-5 my-3">
-//           {['Events', 'Timeline', 'Gallery',  'Contact', 'Sponsors'].map((item, index) => (
-//             <li key={index} className="hover:text-gray-300">
-//               <a href={item} aria-label={`Navigate to ${item}`}>{item}</a>
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//       <div>
-//         <img src="logo2.svg" alt="TimesLogo" />
-//       </div>
-//     </div>
-
-// >>>>>>> Stashed changes
-//   );
-// };
+  );
+};
 
 export default Navbar;
