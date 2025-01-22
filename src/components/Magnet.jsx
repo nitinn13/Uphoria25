@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const Magnet = () => {
     const buttonRef = useRef(null);
@@ -21,6 +22,8 @@ const Magnet = () => {
 
     return (
         <div className="flex items-center justify-center ">
+            <Link to="/Timeline" className="relative">
+            
             <button
                 ref={buttonRef}
                 className="relative px-5 py-2 text-lg  uppercase text-white transition-transform duration-200 ease-out bg-[rgba(25,25,112,0.4)] rounded-full shadow-lg border border-[#E6C373]"
@@ -29,6 +32,8 @@ const Magnet = () => {
             >
                 Explore
             </button>
+            </Link>
+
         </div>
     );
 };

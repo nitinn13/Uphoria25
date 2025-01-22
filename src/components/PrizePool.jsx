@@ -20,10 +20,11 @@ const PrizePool = () => {
                 <CountUp
                     key={key} 
                     start={0}
-                    end={2500000}
+                    end={2000000}
                     separator=","
                     duration={2} 
                 />
+                +
             </div>
         </div>
     );

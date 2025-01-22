@@ -7,8 +7,8 @@ const Gallery = () => {
       <div className='sticky top-[1vh] z-10'>
         <Navbar />
       </div>
-      <div>
-        Gallery
+      <div className='text-center font-bold text-lg'>
+        <h1>Coming Soon...</h1>
       </div>
     </div>
   )

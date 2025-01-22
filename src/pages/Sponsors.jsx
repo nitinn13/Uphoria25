@@ -7,8 +7,8 @@ const Sponsors = () => {
       <div className='sticky top-[1vh] z-10'>
         <Navbar />
       </div>
-      <div>
-        Sponsors
+      <div className='text-center font-bold text-lg'>
+        <h1>Coming Soon...</h1>
       </div>
     </div>
   )

@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Developers Section */}
           <div className="flex-grow">
             <div className="flex flex-col items-center sm:items-end">
-              <h1 className="font-sans mb-3">Developed By:</h1>
+              <h1 className="font-sans mb-3 text-[#ffffff]">Developed By:</h1>
               <div className="flex space-x-2">
                 {/* All developers in one row */}
                 <a href="https://www.linkedin.com/in/nitin-kumar-jha" target="_blank" rel="noopener noreferrer">
@@ -38,14 +38,14 @@ const Footer = () => {
                   </div>
                 </a>
 
-                <a href="https://www.linkedin.com/in/parth-singh427" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/soumyasmitsingh/" target="_blank" rel="noopener noreferrer">
                   <div className="relative group">
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                     <img src="/soumya.jpg" alt="Soumya Singh" className="relative rounded-full w-12 h-12 object-cover border-2 border-pink-500" />
                   </div>
                 </a>
 
-                <a href="https://www.linkedin.com/in/sankalp-tiwari-" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sankalp-tiwari-79967321a/" target="_blank" rel="noopener noreferrer">
                   <div className="relative group">
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                     <img src="/sankalp.png" alt="Sankalp Tiwari" className="relative rounded-full w-12 h-12 object-cover border-2 border-purple-500" />

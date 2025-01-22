@@ -5,6 +5,7 @@ import Sponsors from './pages/Sponsors';
 import Gallery from './pages/Gallery';
 import EventCategoryPage from './pages/EventCategoryPage';
 import Timeline from './pages/Timeline';
+import Accommodation from './pages/Accommodation';
 
 // Layout Component to Wrap Pages
 const Layout = ({ children }) => (
@@ -44,6 +45,14 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <Timeline />
+      </Layout>
+    ),
+  },
+  {
+    path: '/Accommodation',
+    element: (
+      <Layout>
+        <Accommodation />
       </Layout>
     ),
   },

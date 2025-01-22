@@ -50,18 +50,19 @@ const Timelinecomp = () => {
           </div>
           {/* Events Container */}
           <div className="lg:w-3/4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-2">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-2">
               {dayData.events.map((event, eventIndex) => (
                 <div key={event.id} className="relative">
                   <div className="flex items-start">
-                    <div className="w-3 h-3 rounded-full bg-blue-400 mt-2 mr-2"></div>
-                    <p className="text-sm sm:text-base lg:text-lg text-[#ffffff]">
+                    <div className="w-3 h-3 rounded-full bg-red-800 mt-2 mr-2"></div>
+                    <p className={`text-sm sm:text-base lg:text-lg ${
+                        ["Prom Night", "DJ Night", "Bollywood Artist Night", "Artist Night", "Musical"].includes(event.name)
+                          ? "font-bold text-[#E6C373] text-lg sm:text-xl lg:text-2xl glowing-text"
+                          : "text-[#ffffff] "
+                      }`}>
                       {event.name}
                     </p>
                   </div>
-                  {/* {eventIndex < dayData.events.length - 1 && (
-                    <div className="absolute left-2 top-6 bottom-0 w-[2px] bg-gray-300"></div>
-                  )} */}
                 </div>
               ))}
             </div>
